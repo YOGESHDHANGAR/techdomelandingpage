@@ -1,0 +1,63 @@
+.navbar_main {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 0.7vmax 10vmax;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navlink {
+  text-decoration: none;
+  color: white;
+  margin: 0 1.1vmax;
+}
+
+.middle_navlinks {
+  display: flex;
+}
+
+.lets_talk_button {
+  display: flex;
+  background-color: white;
+  color: black;
+  width: 120px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.service_dropdown {
+  cursor: pointer;
+  position: relative;
+}
+
+.service_dropdown_menu {
+  position: absolute;
+  top: 100%;
+  left: -10px;
+  background-color: white;
+  color: black;
+  list-style: none;
+  padding: 30px 30px 30px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: max-content;
+  border-radius: 5px;
+}
+
+.service_dropdown_item_link {
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.2s ease;
+}
+
+.service_dropdown_item_link:hover {
+  background-color: black;
+  color: white;
+}

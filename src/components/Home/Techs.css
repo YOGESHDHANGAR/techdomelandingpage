@@ -1,0 +1,45 @@
+.techs_main {
+  padding: 0 24vmax;
+}
+
+.techs_content {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.page_refer {
+  display: flex;
+  margin: 15px 0px;
+  position: relative;
+}
+
+.for_startups_image {
+  width: 50%;
+}
+
+.for_enterprises_image {
+  width: 50%;
+}
+
+.startups_heading_and_description {
+  padding: 5px 25px;
+}
+
+.enterprises_heading_and_description {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 25px;
+  text-align: right;
+  align-items: end;
+}
+
+.heading {
+  margin-bottom: 15px;
+}
+
+.link_to_industries {
+  position: absolute;
+  bottom: 0;
+  text-decoration: none;
+}

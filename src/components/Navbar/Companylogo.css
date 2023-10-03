@@ -1,0 +1,7 @@
+.companylogo_main {
+  display: flex;
+  align-items: center;
+}
+.logo_img {
+  width: 84%;
+}

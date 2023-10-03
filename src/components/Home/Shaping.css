@@ -1,0 +1,43 @@
+.shaping_main {
+  padding: 0 18vmax;
+}
+
+.hoverablelist_main {
+  display: flex;
+  text-align: left;
+}
+
+.hover_links {
+  flex: 0.28;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.link_details {
+  flex: 0.72;
+  display: flex;
+}
+
+.link_details_without_image {
+  padding: 1.8vmax;
+  flex: 0.6;
+}
+
+.link_image {
+  flex: 0.4;
+  border-radius: 5px;
+  width: 90%;
+  height: 95%;
+}
+
+.active_link {
+  color: black;
+  border-left: 4px solid blue;
+  padding-left: 2px;
+}
+
+.points_list {
+  padding: 10px 20px;
+}

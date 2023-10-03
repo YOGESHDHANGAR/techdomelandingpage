@@ -1,0 +1,48 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 0vmax 12vmax;
+  height: 75vh;
+}
+
+.banner_title {
+  font-size: 4vmax;
+  margin: 5px 0;
+}
+
+.banner_text {
+  margin: 50px 0;
+}
+
+.description {
+  line-height: 1.8vmax;
+  color: gray;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 5.2vmax;
+}
+
+.tagline {
+  font-size: 2vmax;
+  margin: 12px;
+}
+
+.tagline1 {
+  color: gray;
+}
+
+.tagline2 {
+  color: blue;
+}
+
+.content {
+  margin: 20px 0;
+}

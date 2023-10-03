@@ -1,0 +1,22 @@
+.clients_main {
+  padding: 0 14vmax;
+}
+
+.clients_images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.client_img {
+  width: 220px;
+  height: 100px;
+  margin: 20px;
+  color: white;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+.client_img:hover {
+  background-color: black;
+  border-radius: 10px;
+}

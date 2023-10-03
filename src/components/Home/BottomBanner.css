@@ -1,0 +1,27 @@
+.bottombanner_section {
+  background-image: url(../../assets//bottombannerbackgroundimage.webp);
+  color: white;
+  padding: 13vmax 0;
+  background-size: 100vw;
+}
+
+.bottombannertaglineimage {
+  width: 38%;
+  height: auto;
+}
+
+.tag {
+  line-height: 2vmax;
+  margin: 30px;
+}
+
+.lets_talk_button_in_bottom_banner {
+  display: flex;
+  background-color: white;
+  color: black;
+  width: 120px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
